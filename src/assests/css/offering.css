@@ -1,0 +1,64 @@
+/* body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fff;
+	color: #000;
+} */
+.offering-container{
+    background-color: #70a4e4;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2%; 
+}
+.button-container{
+    display: flex;
+    padding-top: 5%;
+}
+.travelling-paragraph{
+    width: 500px;
+  padding-top: 29px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.blog-button {
+    margin-right: 15%; /* Removed the comma here */
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+.blog-button:hover{
+    background-color: white;
+   color: blue;
+}
+.offering-button{
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+.offering-button:hover{
+    background-color: white;
+    color: blue;
+}
+.travel-image{
+    width: 31%;
+    height: 95%;
+}
